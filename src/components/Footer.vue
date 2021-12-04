@@ -2,7 +2,7 @@
   <footer>
     <h3>新しいつながりを見つけよう</h3>
     <ul>
-      <li><router-link to="/">グループを探す</router-link></li>
+      <li><router-link to="/teams">チームを探す</router-link></li>
       <li><router-link to="/">イベントを探す</router-link></li>
       <li><router-link to="/">友達を見つける</router-link></li>
     </ul>
