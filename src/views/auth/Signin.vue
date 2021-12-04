@@ -7,9 +7,10 @@
       type="text"
       v-model="user.id"
       placeholder="IDを入力してください">
+
     <input
       class=""
-      type="text"
+      type="password"
       v-model="user.password"
       placeholder="パスワードを入力してください">
 

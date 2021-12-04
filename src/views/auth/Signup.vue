@@ -11,12 +11,12 @@
     <input
       class=""
       type="text"
-      v-model="user.id"
+      v-model="user.display_name"
       placeholder="名前を入力してください">
 
     <input
       class=""
-      type="text"
+      type="password"
       v-model="user.password"
       placeholder="パスワードを入力してください">
 
