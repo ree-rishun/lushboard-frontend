@@ -16,7 +16,7 @@
     height: 80px;
     .logo {
       display: block;
-      height: 80px;
+      height: 60px;
       width: auto;
       margin: 0 auto;
     }

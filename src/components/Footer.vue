@@ -24,6 +24,8 @@
   footer {
     display: block;
     background-color: #333333;
+    margin-top: 20px;
+    padding-bottom: 10px;
     h3 {
       font-weight: bold;
       color: #FFFFFF;
