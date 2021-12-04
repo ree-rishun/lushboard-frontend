@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/dashboard/Home'
 import Signin from '../views/auth/Signin'
 import Signup from '../views/auth/Signup'
+import ProfileEdit from '../views/dashboard/Edit'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
     name: 'Signup',
     component: Signup,
   },
+  {
+    path: '/edit',
+    name: 'ProfileEdit',
+    component: ProfileEdit,
+  }
 ]
 
 const router = new VueRouter({

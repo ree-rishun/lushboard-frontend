@@ -6,7 +6,9 @@
       サッカーが好きで学生の頃からサッカークラブに入っていました。今もフットサルを毎週水曜日にやっています！
     </p>
 
-    <button class="edit_button">
+    <button
+      class="edit_button"
+      @click="$router.push('/edit')">
       プロフィール編集
     </button>
 
