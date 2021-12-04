@@ -4,6 +4,7 @@ import Home from '../views/dashboard/Home'
 import Signin from '../views/auth/Signin'
 import Signup from '../views/auth/Signup'
 import ProfileEdit from '../views/dashboard/Edit'
+import TeamList from '../views/teams/List'
 
 Vue.use(VueRouter)
 
@@ -27,7 +28,12 @@ const routes = [
     path: '/edit',
     name: 'ProfileEdit',
     component: ProfileEdit,
-  }
+  },
+  {
+    path: '/teams',
+    name: 'Teams',
+    component: TeamList,
+  },
 ]
 
 const router = new VueRouter({
