@@ -13,7 +13,7 @@
     <div class="cards">
       <div class="continue">
         <div class="card_icon">
-          <img src="../assets/img/directions_run_white_24dp.svg">
+          <img src="../../assets/img/directions_run_white_24dp.svg">
         </div>
         <div class="card_description">
           <h3>連続運動日</h3>
@@ -22,7 +22,7 @@
       </div>
       <div class="rank">
         <div class="card_icon">
-          <img src="../assets/img/whatshot_white_24dp.svg">
+          <img src="../../assets/img/whatshot_white_24dp.svg">
         </div>
         <div class="card_description">
           <h3>運動ランク</h3>
