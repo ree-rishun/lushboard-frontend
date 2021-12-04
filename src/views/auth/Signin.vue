@@ -1,6 +1,5 @@
 <template>
   <div class="signin">
-
     <h2>SIGNIN</h2>
 
     <input
